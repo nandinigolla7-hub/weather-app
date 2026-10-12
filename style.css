@@ -75,7 +75,7 @@ body {
 
 .details {
     display: flex;
-    gap: 50px;
+
     align-items: center;
     justify-content: space-between;
     padding: 30px;
@@ -94,17 +94,19 @@ body {
     height: 80px;
 }
 
-.humidity {
+.humidity .wind {
 
-    padding: 15px;
-}
-
-.wind {
     padding: 15px;
 }
 
 .weather {
     display: none;
+}
+
+p {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 .error {
